@@ -12,6 +12,5 @@ public class No03_3HandDeme {
 			System.out.println("참이냐 거짓이냐 1 이면 참 , 0 이면 거짓 :" + result );
 			
 			
-			
 		}
 }
