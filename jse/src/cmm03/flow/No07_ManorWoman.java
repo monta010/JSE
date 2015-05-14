@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class No07_ManorWoman {
 	public static void main(String[] args) {
-		String ssn = "";
+		
 		Scanner scanner = new Scanner(System.in);
-		ssn = scanner.nextLine();
-		char ch = ssn.charAt(7);
+		
 		
 		System.out.println("입력하세요  : ");
+		String ssn = scanner.next();
 		
+		char ch  = ssn.charAt(7);
 		
 		if(ch == '1' ||  ch =='3'){
 			
