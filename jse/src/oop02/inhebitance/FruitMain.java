@@ -1,5 +1,10 @@
 package oop02.inhebitance;
 
+import oop04.polymorphism.AppleImpl;
+import oop04.polymorphism.BananaImpl;
+import oop04.polymorphism.FruitInterface;
+import oop04.polymorphism.OrangeImpl;
+
 public class FruitMain {
 	public static void main(String[] args) {
 		// 인터페이스는 객체를 만들수 없다.
