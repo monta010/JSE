@@ -1,28 +1,26 @@
 package oop07.nestedClass;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 public class InnerClassAnonyHello {
 	interface GreetingService {
 		public void greet(String name);
 	}
 
 	public void sayHello() {
+		
 		/*
 		 * 내부클래스 인터페이스 구현 방법 1.
 		 */
 		class EnglishGreetServiceImpl implements GreetingService {
 
-			@Override
+			@Override // 재정의
 			public void greet(String name) {
 				System.out.println("Hello" + name);
 
 			}
 		}
 		GreetingService eng = new EnglishGreetServiceImpl();
-
 		
-		
+///////////////////////////////////////////////////////////////////////////////////////////////////////		
 		
 		/*
 		 * 내부클래스 인터페이스 구현 방법 2.
