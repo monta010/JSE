@@ -47,7 +47,7 @@ public class MemberServiceImpl implements MemberService{
 		map.put("id", vo.getId()); //string 값은 대소문자 구별한다.
 		map.put("password", vo.getPassword());
 		/*
-		 * 1. 첫번째 에러 유형
+		 * 1. 첫번째 에러 유형le
 		 * map.put(vo.getId(), vo.getPassword());
 		 * 이건 개발자가 많이 하는 착각의 코딩
 		 * */
